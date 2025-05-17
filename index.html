@@ -6,43 +6,46 @@
     <title>InternshipLah</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-300">
+<body class="bg-gray-900 text-gray-300 min-h-screen flex flex-col">
     <!-- Navbar -->
-    <nav class="flex flex-col p-4 bg-gray-800">
-        <div class="flex items-center justify-center mb-4">
-            <img src="assets\InternshipLah.png" alt="Logo" class="h-16 mr-2">
+    <nav class="w-full flex flex-col p-8 bg-gray-800">
+        <div class="flex items-center justify-center mb-8">
+            <img src="assets\InternshipLah.png" alt="Logo" class="h-36 mr-2">
         </div>
-        <div class="flex justify-center space-x-4">
-            <a href="#home" class="hover:text-blue-400">Home</a>
+        <div class="flex justify-center space-x-16 text-xl">
+            <a href="#pioneers" class="hover:text-blue-400">Pioneers</a>
             <a href="#advice" class="hover:text-blue-400">General Advice</a>
             <a href="#specific" class="hover:text-blue-400">Specific Advice</a>
-            <a href="#pioneers" class="hover:text-blue-400">Pioneers</a>
             <a href="#contribute" class="hover:text-blue-400">Contribute</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="text-center py-20">
-        <h1 class="text-4xl font-bold text-blue-500">Welcome to InternshipLah</h1>
-        <p class="text-lg mt-2">Your ultimate guide to internships in Malaysia</p>
-        <button class="mt-4 px-6 py-2 bg-blue-500 text-white rounded">Get Started</button>
+    <section id="home" class="text-center py-40 min-h-[60vh] flex flex-col justify-center items-center">
+        <h1 class="text-7xl font-bold">
+            <span class="text-blue-500">Internship</span><span class="text-orange-400">Lah</span>
+            <br>
+            <span class="text-3xl text-gray-300 font-normal mt-4 block">like an honest Malaysian</span>
+        </h1>
+        <p class="text-3xl mt-8">Your ultimate guide to internships in Malaysia</p>
+        <button class="mt-12 px-12 py-4 bg-blue-500 text-white rounded-lg text-2xl">Get Started</button>
     </section>
 
     <!-- Philosophy Section -->
-    <section id="philosophy" class="py-10 px-8 bg-gray-800">
-        <h2 class="text-3xl font-semibold text-orange-400">Our Philosophy</h2>
-        <p class="mt-2">We believe in empowering students with real internship experiences and practical advice.</p>
+    <section id="philosophy" class="py-24 px-16 bg-gray-800">
+        <h2 class="text-5xl font-semibold text-orange-400">Our Philosophy</h2>
+        <p class="mt-6 text-xl">We believe in empowering students with real internship experiences and practical advice.</p>
     </section>
 
     <!-- General Advice Preview -->
-    <section id="advice" class="py-10 px-8">
-        <h2 class="text-3xl font-semibold text-blue-400">General Advice</h2>
-        <p class="mt-2">Tips and strategies for internship applications and success.</p>
-        <a href="#" class="text-orange-400 hover:underline">Explore More</a>
+    <section id="advice" class="py-24 px-16">
+        <h2 class="text-5xl font-semibold text-blue-400">General Advice</h2>
+        <p class="mt-6 text-xl">Tips and strategies for internship applications and success.</p>
+        <a href="#" class="text-2xl text-orange-400 hover:underline mt-4 inline-block">Explore More</a>
     </section>
 
     <!-- Footer -->
-    <footer class="py-4 bg-gray-800 text-center">
+    <footer class="py-8 bg-gray-800 text-center text-lg">
         <p>InternshipLah © <script>document.write(new Date().getFullYear())</script> - <a href="#" class="text-blue-400 hover:underline">GitHub</a> | <a href="#" class="text-blue-400 hover:underline">Wireframe</a></p>
     </footer>
 </body>
